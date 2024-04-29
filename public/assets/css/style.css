@@ -1,0 +1,63 @@
+.header{
+    background: #1f5fb7;
+    height: 120px;
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+    height: 120px;
+    left: 20px;
+}
+
+.title{
+    position: relative;
+    left: 75px;
+    align-content: center;
+    color: white;
+}
+
+.welcome{
+    position: relative;
+    margin: auto;
+    display: flex;
+    top: 30px;
+}
+
+.welcomeCard{
+    background: #1f5fb7;
+}
+
+.welcomeName{
+    color: white
+}
+
+.fieldData{
+    width: 100%;
+}
+
+.buttonData{
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+@media screen and (max-width:767px) {
+    .header{
+        width: 120%;
+    }
+
+    .logo{
+        position: relative;
+        height: 120px;
+        left: 10px;
+    }
+    
+    .title{
+        position: relative;
+        left: 16px;
+        align-content: center;
+        color: white;
+    }    
+}
